@@ -27,7 +27,7 @@ export default function SignIn() {
 
           {/* Items */}
           <div className="grid gap-20">
-
+            <hr></hr>
             {/* 1st item */}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
