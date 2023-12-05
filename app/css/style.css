@@ -8,6 +8,7 @@
 @import 'additional-styles/theme.css';
 
 @import 'tailwindcss/utilities';
+@import 'react-image-gallery/styles/css/image-gallery.css';
 
 /* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
 @layer utilities {

@@ -16,6 +16,22 @@ export default function Header() {
           </div>
           <nav className="hidden md:flex md:grow">
             <ul className="flex grow justify-end flex-wrap items-center">
+            <li>
+                <Link
+                  href="/"
+                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Home
+                </Link>
+            </li>
+            <li>
+                <Link
+                  href="/gallery"
+                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Gallery
+                </Link>
+              </li>
               <li>
                 <Link
                   href="/signin"
@@ -24,11 +40,11 @@ export default function Header() {
                   Contact Us
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/signup" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
                   Sign up
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </nav> 
 
