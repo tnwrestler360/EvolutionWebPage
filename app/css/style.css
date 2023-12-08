@@ -17,6 +17,10 @@
     }
 }
 
+.photo-gh {
+    text-align: center;
+}
+
 /* See Alpine.js: https://github.com/alpinejs/alpine#x-cloak */
 [x-cloak=""] {
     display: none;
