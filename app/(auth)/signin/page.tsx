@@ -32,7 +32,7 @@ export default function SignIn() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage01} width={300} height={305} alt="Features 01" />
+                <img className="max-w-full mx-auto md:max-w-none h-auto" src='https://raw.githubusercontent.com/tnwrestler360/EvolutionWebPage/master/public/images/TimHeadshot.png' width={300} height={305} alt="Features 01" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
@@ -68,7 +68,7 @@ export default function SignIn() {
               <div className="md:pl-4 lg:pl-12 xl:pl-16">
                 <div className="font-architects-daughter text-xl text-purple-600 mb-2">Sales Manager</div>
                 <h3 className="h3 mb-3">Ron Davis</h3>
-                <p className="text-lg text-gray-400 mb-4">A seasoned Sales Manager specializing in semiconductor sales, seamlessly integrating technical expertise with a passion for success. With a proven track record in navigating the complex landscape of semiconductor solutions, client relations, and strategic business development, John is committed to driving results and exceeding sales targets. Beyond the realm of silicon and circuits, he finds serenity by the water, casting lines and strategizing not only in the boardroom but also in the tranquility of his favorite fishing spots. A devoted follower of European football, Ron understands the precision and strategy required in the semiconductor industry, reflecting the same passion in his approach to the game. For a unique blend of semiconductor proficiency, strategic salesmanship, and shared excitement for fishing and football.</p>
+                <p className="text-lg text-gray-400 mb-4">A seasoned Sales Manager specializing in semiconductor sales, seamlessly integrating technical expertise with a passion for success. With a proven track record in navigating the complex landscape of semiconductor solutions, client relations, and strategic business development, Ron is committed to driving results and exceeding sales targets. Beyond the realm of silicon and circuits, he finds serenity by the water, casting lines and strategizing not only in the boardroom but also in the tranquility of his favorite fishing spots. A devoted follower of European football, Ron understands the precision and strategy required in the semiconductor industry, reflecting the same passion in his approach to the game. For a unique blend of semiconductor proficiency, strategic salesmanship, and shared excitement for fishing and football.</p>
                 <ul className="text-lg text-gray-400 -mb-2">
                   <li className="flex items-center mb-2">
                     <Image className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" src={ReactLogo} width={20} height={20} alt="Features 02" />

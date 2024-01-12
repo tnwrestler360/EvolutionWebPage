@@ -3,7 +3,8 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import Modal from '@/components/utils/modal'
-import HeroImage from '@/public/images/EvoStockImg.png'
+// import HeroImage from '@/public/images/EvoStockImg.png'
+import HeroImage from 'https://i.imgur.com/m4e94U7.png'
 
 export default function Hero() {
 
@@ -42,11 +43,10 @@ export default function Hero() {
           {/* Hero image */}
           <div>
             <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
-              <Image
-                src={HeroImage}
+              <img
+                src="https://i.imgur.com/m4e94U7.png"
                 width={1024}
                 alt="Hero"
-                priority
               />
 
             </div>
