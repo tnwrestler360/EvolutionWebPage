@@ -26,7 +26,7 @@ export default function Header() {
             </li>
             <li>
                 <Link
-                  href="/gallery"
+                  href="/gallery.html"
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Gallery
@@ -34,7 +34,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="/signin"
+                  href="/signin.html"
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Contact Us

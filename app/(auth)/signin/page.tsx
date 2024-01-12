@@ -61,7 +61,7 @@ export default function SignIn() {
           <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
             {/* Image */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
-              <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage02} width={300} height={305} alt="Features 02" />
+              <img className="max-w-full mx-auto md:max-w-none h-auto" src='https://github.com/tnwrestler360/EvolutionWebPage/blob/master/public/images/RonHeadshot.png?raw=true' width={300} height={305} alt="Features 02" />
             </div>
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
@@ -89,7 +89,7 @@ export default function SignIn() {
           <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage03} width={300} height={305} alt="Features 03" />
+                <img className="max-w-full mx-auto md:max-w-none h-auto" src='https://raw.githubusercontent.com/tnwrestler360/EvolutionWebPage/master/public/images/JeffHeadshot.png' width={300} height={305} alt="Features 03" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
